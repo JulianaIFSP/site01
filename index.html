@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilos/css.css" />
+    <link rel="icon" href="imagens/exec.png" />
+    <script src="scripts/jscript.js" defer></script>
+    <title>Informática</title>
+</head>
+<body>
+    <h1>Equipamentos de Informática</h1> 
+    <p>Clique sobre o nome do equipamento</p> 
+    <table> 
+        <tr>
+            <td><img src="imagens/equipamentos/impr.png" alt="Impresssora" /></td></td>
+            <td><img src="imagens/equipamentos/mon.png" alt="Monitor" /></td></td>
+            <td><img src="imagens/equipamentos/mouse.png" alt="Mouse" /></td></td>
+            <td><img src="imagens/equipamentos/note.png" alt="Notebook" /></td></td>
+        </tr>   
+        <tr>
+            <td><img src="imagens/equipamentos/PC.png" alt="Computador" /></td></td>
+            <td><img src="imagens/equipamentos/pen.png" alt="Pendrive" /></td></td>
+            <td><img src="imagens/equipamentos/scan.png" alt="Scanner" /></td></td>
+            <td><img src="imagens/equipamentos/tecl.png" alt="Teclado" /></td></td>
+        </tr>
+    </table>
+
+    <div id="div_modal" class="modal">
+        <div class="conteudo_modal">
+            <!-- Símbolo de "x": melhor usar esse símbolo do que escrever a letre, 
+             pois pode estar usando uma fonte que deixa o resultado estranho. 
+             O símbolo usa uma fonte parecida com o Navegador / Windows  -->
+            <p id="p_fechar"><span class="bt_fechar">&times;</span></p>
+            <img id="img_equip" alt="Equipamento Escolhido" />
+            <p id="p_nome_equip"></p>
+        </div>
+    </div> 
+</body>
+</html>
